@@ -14,6 +14,8 @@ A collection of serverless functions for FaaS experimentation.
 | [Palindrome Checker](./palindrome-checker) | A function that checks if a given string is a palindrome.                       | Go             |
 | [Word Counter](./word-counter)             | A function that counts words in a provided text.                                | Go             |
 | [UUID Generator](./uuid-generator)         | A function that generates and returns a UUID.                                   | Go             |
+| [Fibonacci](./fibonacci)                   | A function that generates the Fibonacci sequence up to a specified number.      | Node.js        |
+| [Spring Boot](./spring-boot)               | A simple Spring Boot application that exposes an HTTP endpoint.                 | Java           |
 
 ## Pre-built Docker Images
 
@@ -27,6 +29,8 @@ Pre-built Docker images are available on Docker Hub:
 - [devandrejesus/palindrome-checker-go](https://hub.docker.com/repository/docker/devandrejesus/palindrome-checker-go)
 - [devandrejesus/word-counter-go](https://hub.docker.com/repository/docker/devandrejesus/word-counter-go)
 - [devandrejesus/uuid-generator-go](https://hub.docker.com/repository/docker/devandrejesus/uuid-generator-go)
+- [devandrejesus/fibonacci-node](https://hub.docker.com/repository/docker/devandrejesus/fibonacci-node)
+- [devandrejesus/spring-boot-java](https://hub.docker.com/repository/docker/devandrejesus/spring-boot-java)
 
 Since my goal is to test the [stargz snapshotter](https://github.com/containerd/stargz-snapshotter), I built these images using the estargz compression format. I used the following command to build them:
 

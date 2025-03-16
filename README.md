@@ -10,6 +10,7 @@ A collection of serverless functions for FaaS experimentation.
 | [Image Resizer](./image-resizer)           | A function that resizes an image to a specified width and height.               | Python         |
 | [Matrix Multiplier](./matrix-multiplier)   | A function that multiplies two matrices.                                        | Python (NumPy) |
 | [Vector Magnitude](./vector-magnitude)     | A function that calculates the magnitude of a vector.                           | Python (NumPy) |
+| [File manager](./file-manager)             | A function that manages files in a specified directory.                         | Python         |
 | [Weather Forecast](./weather-forecast)     | A function that retrieves the weather forecast for a given location.            | Go             |
 | [Palindrome Checker](./palindrome-checker) | A function that checks if a given string is a palindrome.                       | Go             |
 | [Word Counter](./word-counter)             | A function that counts words in a provided text.                                | Go             |
@@ -25,6 +26,7 @@ Pre-built Docker images are available on Docker Hub:
 - [devandrejesus/image-resizer-python](https://hub.docker.com/repository/docker/devandrejesus/image-resizer-python)
 - [devandrejesus/matrix-multiplier-python](https://hub.docker.com/repository/docker/devandrejesus/matrix-multiplier-python)
 - [devandrejesus/vector-magnitude-python](https://hub.docker.com/repository/docker/devandrejesus/vector-magnitude-python)
+- [devandrejesus/file-manager-python](https://hub.docker.com/repository/docker/devandrejesus/file-manager-python)
 - [devandrejesus/weather-forecast-go](https://hub.docker.com/repository/docker/devandrejesus/weather-forecast-go)
 - [devandrejesus/palindrome-checker-go](https://hub.docker.com/repository/docker/devandrejesus/palindrome-checker-go)
 - [devandrejesus/word-counter-go](https://hub.docker.com/repository/docker/devandrejesus/word-counter-go)
